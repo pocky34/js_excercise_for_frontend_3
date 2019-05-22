@@ -19,7 +19,7 @@ const ulElement = document.createElement('ul');
  */
 (() => {
   for( let i = 1; i <= 5; i++ ) {
-    let newLiElement = document.createElement('li');
+    const newLiElement = document.createElement('li');
     newLiElement.textContent = 'アイテム' + i;
     ulElement.appendChild(newLiElement);
   }
